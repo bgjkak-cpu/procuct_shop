@@ -29,16 +29,6 @@ const ProductList = () => {
                     ))}
                 </tbody>
             </table>
-
-            {/* {products.map((product) => (
-                <div key={product.id}>
-                    <h3>
-                       <Link to={`/products/${product.id}`}>{product.name}</Link> 
-                    </h3>
-                    <p>가격: {product.price}원</p>
-                    <p>설명: {product.description}</p>
-                </div>
-            ))} */}
             <div className='btn-add'>
                 <Link to="/add-product">
                     <button>상품 등록하기</button>
